@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> User settings and profile</title>
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/index.css">
+</head>
+<body class="bg">
+    
+
+    <nav class="navbar navbar-expand-md green2 sticky-top justify-content-between">
+		<!-- logo/brand -->
+
+		<a href="chatroomdm.html" class="navbar-brand text-light bold fs1">Likeminds</a>
+
+		
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbar">
+			<span class="fa fa-bars"></span>
+		</button>
+
+
+		<!-- navbar link -->
+		<div class="collapse navbar-collapse justify-content-end" id="mynavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item"><a href="chatroomdm.html" class="nav-link"><span class="fas fa-users   text-light navicon"></span></a></li>
+				<li class="nav-item"><a href="private.html" class="nav-link"><span class="fas fa-comment-alt   text-light navicon"></span></a></li>
+				<li class="nav-item"><a href="#" class="nav-link"><span class="fas fa-bell   text-light navicon"></span></a></li>
+	
+				<li class="nav-item"><a href="user.html" class="nav-link"><span class="fas fa-user-alt  text-light navicon"></span></a></li>
+			</ul> 
+             
+		</div>
+	</nav>
+
+
+
+
+    <div class="container-fluid bg">
+        <div class="container  dop ">
+            <div class="card my-card tt px-5 mb-5">
+                <div class="text-center">
+                    <img class="img-fluid rounded-circle scimage" src="img/sc.jpg" alt="profile pic">
+                </div>
+                <div class="card-body text-center">
+                    <a href="" class="noline"><h5 class="text-dark">Kachi4778</h5></a>
+                    <a href="profile.html" class="noline">Edit Profile</a>
+                </div>
+                <hr>
+                <div class="pl-2 four mb-3">
+                    <div>
+                        <a href="settingggs.html" class="text-dark noline"><p class=" fs3"><span class="fas fa-user-cog green"></span>&nbsp;&nbsp; Settings</p></a>
+                    </div>
+                    <div>
+                        <a href="" class="text-dark noline" id="create2" data-toggle="modal" data-target="#createmodal2"><p class="pt-2 fs3"><span class="fas fa-users green"></span>&nbsp;&nbsp; Top Groups</a>
+                    </div>
+                    <div>
+                        <a href="" class="text-dark noline"  id="create" data-toggle="modal" data-target="#createmodal"><p class="pt-2 fs3"><span class="fas fa-comment-alt"></span>&nbsp;&nbsp; Give Feedback</p></a>
+                    </div>
+                    <div>
+                        <a href="index.html" class="text-dark noline"><p class="pt-2 fs3"><span class="fas fa-sign-out-alt green"></span>&nbsp;&nbsp; Log Out</p></a>
+                    </div>
+                </div>
+            </div>   
+            </div>
+            
+
+        <!-- Modal -->
+			 <div class="modal fade" id="createmodal" tabindex="-1" aria-labelledby="createmodalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<!-- modal head -->
+						<div class="modal-header">
+							<div class="modalgend">
+								<h5 class="modal-title " id="createmodal">Something Went Wrong??</h5>
+						
+							</div>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<hr class="green2">
+						<!-- modal body -->
+						<div class="modal-body">
+							
+							
+							<!-- gender -->
+							<div class="container-fluid genderpush">
+                                <div class="container">
+                                    <h5>How can we Improve</h5>
+								
+									<div class=" pl-3 textarea">
+										<textarea name="" id="" cols="" rows="" class="w-100% feed rounded" placeholder="Write Your Complaint or info on how you think we can improve our services.."></textarea>
+                                        
+										
+									</div>
+								</div>
+								
+							</div>
+                            <div class="container-fluid mt-3 ml-2">
+                                <h6>For further complain you can write our support desk at: Likemindsaid@gmail.com</h6>
+                            </div>
+
+							
+							<div class="text-center mt-5 ml-4">
+								<button type="button" class="btn log btn-lg text-light" data-dismiss="modal">Done</button>
+							</div>
+							</form>
+						</div>
+
+						
+						
+					</div>
+				</div>
+			
+                
+            </div>
+             <!-- Modal -->
+			 <div class="modal fade" id="createmodal2" tabindex="-1" aria-labelledby="createmodalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<!-- modal head -->
+						<div class="modal-header">
+							<div class="modalgend">
+								<h5 class="modal-title green" id="createmodal2">Top Groups</h5>
+						
+							</div>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<hr class="green2">
+						<!-- modal body -->
+						<div class="modal-body">
+							
+							
+							
+							<div class="container-fluid genderpush">
+                                <div class="container">
+                                    <ol>
+                                        <li>Football</li>
+                                        <li>Cats</li>
+                                        <li>Star Wars</li>
+                                        <li>Cars</li>
+                                        <li>Horror</li>
+                                        <li>Anime</li>
+                                        <li>Dating Adice</li>
+                                        <li>Samsung</li>
+                                        <li>Programming</li>
+                                        <li>Finance</li>
+                                        
+                                    </ol>
+								
+									
+								</div>
+								
+							</div>
+                            
+
+							
+							<div class="text-center mt-5 ml-4">
+								<button type="button" class="btn log btn-lg text-light" data-dismiss="modal">Cancel</button>
+							</div>
+							</form>
+						</div>
+
+						
+						
+					</div>
+				</div>
+			
+                
+            </div>
+    </div>
+
+</body>
+<script type="text/javascript" src="dist/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="dist/js/all.js"></script>
+<script type="text/javascript" src="dist/js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="dist/js/bootstrap.js"></script>
+</html>

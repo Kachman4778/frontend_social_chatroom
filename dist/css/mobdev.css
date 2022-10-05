@@ -1,0 +1,75 @@
+.one{
+	background-color:rgb(231, 186, 231);
+	position: relative;
+}
+.one .two{
+	margin-top: 8%;
+	padding-left: 7%;
+}
+.one h1{
+    color: purple;
+    font-size: 50px;
+}
+.one hr{
+	width: 14%;
+	margin-left: 1%;
+	padding-bottom:px;
+
+}
+.one i{
+	font-weight: bold;
+}
+.one span{
+	text-decoration: underline;
+}
+.one button{
+	cursor: pointer;
+    font-size: 15px;
+    background-color: purple;
+    padding: 3px 50px;
+}
+/*.second{
+	width: 100%;
+}*/
+.second .ux{
+	height: 150px;
+	/*width: 50px;*/
+	background-color: white;
+	margin-right: 25px;
+	/*display: inline-block;*/
+	position: relative;
+	top: 60%;
+	/*border: 1px solid black;*/
+	/*padding-left: 5%;*/
+}
+
+.second img {
+	height: 50px;
+	/*width: 80px;*/
+	margin-left: 26%;
+	margin-top: 10%;
+}
+.second p{
+	text-align: center;
+	margin-top: 8%;
+	font-family: Futura,Arial,Sans-serif;
+	color:rgb(102, 29, 122);
+	font-weight: bold;
+}
+.dem{
+	/*border: 5px solid black;*/
+	padding-left: 15%;
+	position: relative;
+	top: 30px;
+}
+.nextdiv{
+	background-color: rgb(83, 21, 83);
+}
+.sad{
+	padding-top: 5%;
+}
+.sad button{
+	padding: 2px 12px;
+	background-color: rgb(0, 0, 0);
+	
+}

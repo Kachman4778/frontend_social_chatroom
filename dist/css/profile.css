@@ -1,0 +1,41 @@
+.pimage{
+    width: 70px;
+    height: 70px;
+    transition: ease .3s;
+    object-fit: cover;
+    box-shadow: 0 0 30px #ffffff44;
+}
+.pimage:hover{
+    transform: scale(1.1);
+
+}
+.changepic{
+    margin-left: 80px;
+    margin-top: -25px;
+    color: #0066cc;
+    /* font-size: 15px; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:800;
+}
+.email{
+    margin-left:38px;
+}
+.mini{
+    margin-top: 7px;
+}
+.number{
+    margin-right: 55px;
+    margin-left: -9px;
+}
+.no{
+    margin-left:-50px ;
+}
+.modalgend{
+    margin-left: 42%;
+}
+.genderpush{
+    margin-top: -30px;
+}
+.mgl{
+    margin-left: -5px;
+}

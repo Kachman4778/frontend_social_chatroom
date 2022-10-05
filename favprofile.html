@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>	Edit profile</title>
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="dist/css/index.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/profile.css"> -->
+	<link rel="stylesheet" type="text/css" href="dist/css/favprofile.css">
+	
+</head>
+<body>
+    <nav class="navbar navbar-expand-md green2 sticky-top justify-content-between">
+		<!-- logo/brand -->
+		<a href="" class="navbar-brand text-light bold fs1">CONNECT</a>
+
+		
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbar">
+			<span class="fa fa-bars"></span>
+		</button>
+
+
+		
+	</nav>
+	<div class="container-fluid">
+		<div class="container mt-4 d-flex justify-content-center">
+			<div class="card my-card tt px-5 mb-5">
+				<div>
+					<h4 class="text-center">Edit Profile</h4>
+				</div>
+                <div class="d-flex">
+                    <img class="img-fluid rounded-circle pimage" src="img/sc.jpg" alt="profile pic">
+					<a href="" class="noline"><h5 class="text-dark ml-3 mt-3">keicha</h5></a>
+					
+				</div>
+				<div class="changepic">
+					<input id="uploadFile" type="file" name="image" style="display:none ;">
+					<label for="uploadFile" class="">Change Profile Photo</label>
+				</div>
+				<hr class="green2">
+                <div class="card-body text-center">
+					<div class="d-flex">
+						<label for="" class="mt-1 mr-">Username</label>
+						<input type="text" class="form-control ml-2" placeholder=" Input new username">
+					</div>
+					<hr class="green2">
+					<div class="d-flex">
+						<label for="" class="mini">	Email</label>
+						<input type="email" class=" email form-control" placeholder=" Input new email">
+					</div>
+					<hr class="green2">
+					<div class="d-flex">
+						<label for="" class="number">Phone Number</label>
+						<input type="tel" class="form-control no" placeholder="Phone number">
+					</div>
+					<hr class="green2">
+					<div class="d-flex">
+						<label for="" class="mt-2">Gender</label>
+						<input type="text" class="form-control ml-3" placeholder="Gender" id="create" data-toggle="modal" data-target="#createmodal">
+
+                    
+                </div>
+				<hr class="green2">
+				<div>
+					<button class="btn log mt-3">Save</button>
+				</div>
+				
+             <!-- Modal -->
+			 <div class="modal fade" id="createmodal" tabindex="-1" aria-labelledby="createmodalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<!-- modal head -->
+						<div class="modal-header">
+							<div class="modalgend">
+								<h5 class="modal-title " id="createmodal">Gender</h5>
+						
+							</div>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<hr class="green2">
+						<!-- modal body -->
+						<div class="modal-body">
+							<form>
+							
+							<!-- gender -->
+							<div class="container-fluid genderpush">
+								<label class="text-muted fs7 pl-3">Gender
+									<div class=" pl-3">
+										<div class="border rounded p-2 mgl mt-3 mb-3">
+											<input type="radio" name="gender" value="male"> Male<br>
+										</div> 
+										<div class="border rounded p-2 mgl mb-3 "> 
+											<input type="radio" name="gender" value="female"> Female
+										</div>
+										<div class="border rounded p-2 mgl mb-3"> 
+											<input type="radio" name="gender" value="female"> Prefer not to say
+										</div>
+									</div>
+								</label>
+								
+							</div>
+
+							
+							<div class="text-center mt-3 ml-4">
+								<button type="button" class="btn btn-primary btn-lg text-light" data-dismiss="modal">Done</button>
+							</div>
+							</form>
+						</div>
+
+						
+						
+					</div>
+				</div>
+			
+                
+            </div>   
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="dist/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="dist/js/all.js"></script>
+<script type="text/javascript" src="dist/js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="dist/js/bootstrap.js"></script>
+</html>

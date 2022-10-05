@@ -1,0 +1,85 @@
+.my-card{
+    background-color: #eee;
+    box-shadow: 3px 3px 70px #00000033, -3px -3px 70px #ffffff77;
+    padding-top: 30px;
+    border-radius: 30px;
+    /* max-width: 50%;
+    width: 50%; */
+    
+    
+}
+.bold{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* .potat{
+    margin-left: 30%;
+} */
+
+
+.tt{
+    background-color: white; 
+   
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.219);
+    
+ }
+
+.green2{
+    background-color:  hsl(262, 75%, 60%);
+}
+
+.green{
+    color: hsl(262, 75%, 60%);
+}
+
+.log{
+    background-color:hsl(262, 75%, 60%) ;
+    color: white;
+}
+
+.pimage{
+    width: 70px;
+    height: 70px;
+    transition: ease .3s;
+    object-fit: cover;
+    box-shadow: 0 0 30px #ffffff44;
+}
+.pimage:hover{
+    transform: scale(1.1);
+
+}
+.changepic{
+    margin-left: 80px;
+    margin-top: -25px;
+    color: #0066cc;
+    /* font-size: 15px; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:800;
+}
+.email{
+    margin-left:38px;
+}
+.mini{
+    margin-top: 7px;
+}
+.number{
+    margin-right: 55px;
+    margin-left: -9px;
+}
+.no{
+    margin-left:-50px ;
+}
+.modalgend{
+    margin-left: 42%;
+}
+.genderpush{
+    margin-top: -30px;
+}
+.mgl{
+    margin-left: -5px;
+}
+
+
+
+

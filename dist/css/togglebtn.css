@@ -1,0 +1,80 @@
+.switch{
+    background-color: #ddd;
+    border-radius: 18px;
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    padding: 3px;
+    position: relative;
+    vertical-align: top;
+    width: 40px;
+    border: 1px solid #0066cc;
+    justify-content: flex-end;
+}
+.switch-input{
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+}
+.switch-input:checked + .switch-label{
+    background-color: #0066cc;
+    left: 18px;
+}
+.switch-label{
+    top: 1.5px;
+    background: #626263fa none repeat scroll 0 0;
+    border-radius: inherit;
+    display: block;
+    font-size: 10px;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    text-transform: uppercase;
+
+}
+.a + .b{
+    color: red;
+}
+/* .switch-label::before, .switch-label::after {
+    line-height: 1;
+    margin-top: -0.5em;
+    position: absolute;
+} */
+
+.sms{
+
+}
+/* .email{
+    display: flex;
+    align-items: center;
+    justify-content: ;
+} */ 
+/* .emm{
+    position: relative;
+    top: -28px;
+}
+.smmms{
+    position: relative;
+    top: -32px;
+}  */
+
+
+
+@media screen and (min-width:768px){
+    .switch{
+        float:right ;
+    }
+    .emm{
+        position: relative;
+        top: -28px;
+    }
+    .smmms{
+        position: relative;
+        top: -32px;
+    }
+    .allow{
+        position: relative;
+        top: -24px;
+    }
+}
